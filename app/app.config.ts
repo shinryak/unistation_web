@@ -22,31 +22,31 @@ export default defineAppConfig({
     },
   },
   app: {
-    name: 'The Green Chronicle',
+    name: 'Unistation',
     description: 'A blog about sustainable living and eco-friendly practices.',
   },
   header: {
     links: [
       {
-        label: 'Seasonal Guides',
+        label: 'Học tập',
         to: '/categories/seasonal-guides',
       },
       {
-        label: 'Environmental Impacts',
+        label: 'Văn hoá và Giải trí',
         to: '/categories/environmental-impacts',
       },
       {
-        label: 'Sustainable Practices',
+        label: 'Sức khoẻ',
         to: '/categories/sustainable-practices',
       },
-      {
-        label: 'Customer Stories',
-        to: '/categories/customer-stories',
-      },
-      {
-        label: 'Behind the Scenes',
-        to: '/categories/behind-the-scenes',
-      },
+      // {
+      //   label: 'Customer Stories',
+      //   to: '/categories/customer-stories',
+      // },
+      // {
+      //   label: 'Behind the Scenes',
+      //   to: '/categories/behind-the-scenes',
+      // },
     ],
   },
   footer: {
